@@ -12,7 +12,7 @@ import java.util.Map;
 public class TestController {
 
     @GetMapping
-    public ResponseEntity<Map<String, String>> healthCheck() {
+    public ResponseEntity<Map<String, String>> healthcheck() {
         return ResponseEntity.ok(Map.of("Status", "Up and running"));
     }
 
